@@ -1,5 +1,7 @@
 # viettel_pdf
 
+https://competition.viettel.vn/contest/online_vbkt_r4_private
+
 ## Flow
 
 - Extract: Deepseek-OCR -> Norm

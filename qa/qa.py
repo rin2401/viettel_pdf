@@ -5,8 +5,7 @@ os.environ["VLLM_USE_V1"] = "0"
 import pandas as pd
 from vllm import LLM, SamplingParams
 
-model_name = "/data01/kilm/users/quocvh/HF/models/Qwen/Qwen3-4B-Instruct-2507"
-# model_name = "Qwen/Qwen3-4B-Instruct-2507"
+model_name = "Qwen/Qwen3-4B-Instruct-2507"
 
 llm = LLM(
     model=model_name,

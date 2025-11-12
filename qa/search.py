@@ -62,8 +62,6 @@ docs_embedding = model.encode(docs, batch_size=16)
 
 
 df = pd.read_csv(f"../{SET}_test_input/question.csv")
-df = df.head(1)
-
 
 contexts = []
 search_results = []

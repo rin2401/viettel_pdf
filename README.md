@@ -20,7 +20,10 @@ bash run_qa.sh
 ```
 
 ## Env
-- Docker Image: nvcr.io/nvidia/pytorch:23.08-py3 
+- Docker (maybe need when install flash-attn/vllm)
+```bash
+docker run --gpus "device=0" -it nvcr.io/nvidia/pytorch:23.08-py3 /bin/bash
+```
 - 1 GPU 24GB
 
 

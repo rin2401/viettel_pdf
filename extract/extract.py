@@ -146,5 +146,5 @@ import glob
 
 paths = glob.glob("../private_test_input/*.pdf")
 
-for path in paths[:1]:
+for path in paths:
     parse_pdf(path)
